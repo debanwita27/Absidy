@@ -18,5 +18,4 @@ Additionally, armed with information about travel and safety related laws and he
    [Contact form](https://www.w3schools.com/howto/howto_css_contact_form.asp) 
   - CSS:
     [Referencing CSS Elements](https://www.w3schools.com/w3css/defaulT.asp)  
-    
     [Radio panel division](https://stackoverflow.com/questions/32935435/use-div-as-radio-button)
