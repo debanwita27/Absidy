@@ -15,7 +15,7 @@ body
     margin: auto;
     display: flex;
     align-items: center;
-    padding: 35px 10%;
+    padding: 35px 5%;
     justify-content: space-between;
     
 }
@@ -27,12 +27,12 @@ nav ul
 nav ul li
 {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 2vmin;
 }
 nav ul li a
 {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 3.2vmin;
     color:white;
     justify-content: space-between;
 }
@@ -55,8 +55,8 @@ nav li a:hover
     cursor: pointer;
     float: left;
     margin-right: 2px;
-    padding: 1.5% 2.5%;
-	font-size:16px;
+    padding: 1.5% 2%;
+	font-size:2.65vmin;
 	font-weight:bold;
 }
 .cctabs label:hover {
