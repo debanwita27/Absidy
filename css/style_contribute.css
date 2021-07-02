@@ -1,0 +1,63 @@
+
+
+*
+{
+    box-sizing: border-box ;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    height:100%;
+    background:url("https://cdn.pixabay.com/photo/2016/01/09/18/27/old-1130738_960_720.jpg");
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.navbar
+{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 35px 0%;
+    justify-content: space-between;
+    
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+nav li a:hover
+{
+    color: green;
+}
+
+p
+{
+	color: white;
+}
+
+h2
+{
+	color: white;
+}
