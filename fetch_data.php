@@ -21,57 +21,14 @@
 	<style>
 		body
 		{
-			background:url("https://cdn.pixabay.com/photo/2015/10/15/21/44/texture-990115_960_720.jpg");
+			background:url("https://cdn.pixabay.com/photo/2013/02/21/19/12/charcoal-84670_960_720.jpg");
 			background-size: cover;
 			background-position: cover;
 			
 			font-family: 'poppins', sans-serif;
 		}
 		
-		table {
-			margin: 0 auto;
-			font-size: large;
-			border: 1px solid white;
-			font-family: 'Gill Sans', 'Gill Sans MT',
-			' Calibri', 'Trebuchet MS', 'sans-serif';
-		}
-
-		p {
-			text-align: center;
-			color: #4be3e0;
-			font-size: 20px;
-			font-weight: lighter;
-		}
-
-		td {
-			background-color: #d5d4f5;
-			border: 1px solid white;
-		}
-
-		th,
-		td {
-			font-weight: bold;
-			border: 1px solid white;
-			padding: 10px 125px 10px 125px;
-			text-align: center;
-		}
-		th{
-			color: white;
-		}
-
-		td {
-			font-weight: lighter;
-		}
 		
-		.navbar
-		{
-			margin: auto;
-			display: flex;
-			align-items: center;
-			padding: 35px 10%;
-			justify-content: space-between;
-    
-		}
 		nav ul
 		{
 			display: inline-block;
@@ -118,9 +75,8 @@
 	   </nav>
 	 </div>
 	 
-		<p>Incase, there are no results, it likely means we don't have data for the place yet.</p>
-		
-		<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+		<div class="container">
+		<table class="table table-dark table-striped" id="dataTable" width="100%" cellspacing="0">
 			<tr>
 				<th>City</th>
 				<th>Area</th>
@@ -154,6 +110,7 @@
 			<?php endwhile;?> 
             
 		</table>
+		</div>
 		<script>
     $(document).ready(function() {
           $('#dataTable').DataTable();
